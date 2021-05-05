@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', (e)=>{
   }, 2000);
 });
 
-
-
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 
 const audioContext = new AudioContext();
@@ -38,18 +36,12 @@ const peopleAudioElement = document.querySelector('audio#audio-people');
 const birdsTrack = audioContext.createMediaElementSource(birdsAudioElement);
 const peopleTrack = audioContext.createMediaElementSource(peopleAudioElement);
 
-
-
 birdsTrack.connect(audioContext.destination);
 peopleTrack.connect(audioContext.destination);
 
-
-
 // select our play button
-
 const birdsPlayButton = document.querySelector('div.btn');
 const peoplePlayButton = document.querySelector('div#emoji-people-button');
-
 
 birdsPlayButton.addEventListener('click', function() {
 
@@ -110,7 +102,6 @@ peopleVolumeControl.addEventListener('input', function() {
   peopleGainNode.gain.value = this.value;
 }, false);
 
-
 const pannerOptions = { pan: 0 };
 const panner = new StereoPannerNode(audioContext, pannerOptions);
 const peoplePannerOptions = { pan: 0 };
@@ -129,6 +120,3 @@ peoplePannerControl.addEventListener('input', function() {
 
 peopleTrack.connect(peopleGainNode).connect(peoplePanner).connect(audioContext.destination);
 birdsTrack.connect(birdsGainNode).connect(panner).connect(audioContext.destination);
-
-
-

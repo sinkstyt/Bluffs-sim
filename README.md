@@ -1,10 +1,10 @@
 # Public Space Simulator
 
-#### Simulate Public Spaces with cool sound!
+#### Simulate the Bluffs with cool sound!
 ##### Created March 28th 2021
-* updated for deployment to Heroku
+##### _updated for deployment to Heroku May 5, 2021_
 
-#### By Garrett Brown, HR Williams, Nick Hennessy, Tyler Sinks
+## Authors: Garrett Brown, HR Williams, Nick Hennessy, Tyler Sinks
 
 ## Technologies Used
 * _aFrame_
@@ -21,6 +21,11 @@
 * _webpack_ and _webpack-cli_
 
 ## Description
+* use mouse to click and drag
+* when bullseye enters sound spheres, sounds begin
+* toggle on/off nature sounds, low chatter
+* headphone use reccomneded for optimal experience
+* toggle full screen by clicking VR glasses icon at bottom right
 
 ## Setup/Installation Requirements
 
@@ -36,15 +41,13 @@
 
 
 ## Known Bugs
-
-* _Any known issues_
-* _should go here_
+* _No known issues_
+* _Please suggest to any of the contributors changes or fixes_
 
 ## Sound Attribution
 
-This project uses these sounds from freesound.org - 
-
-
+This project uses these sounds from freesound.org
+ ------
 | Name | Creator | URL | Licensing |  
 | :------------- | :----------: | :-----------: |  ------------: |
 | Outside ambiance with birds | Ryntjie | https://freesound.org/s/365041/ | Attribution Noncommercial |
@@ -59,9 +62,9 @@ _[MIT](https://choosealicense.com/licenses/mit/)_
 
 Copyright (c) 2021 HR Williams, Nick Hennessy, Tyler Sinks, Garrett Brown
 
-## Contact Information
+### Contact Information
 
-HR Williams <williams.hr@gmail.com>
-Nick Hennessy <njhnny@gmail.com>
-Tyler Sinks <tyler.sinks@gmail.com>
+HR Williams <williams.hr@gmail.com><br />
+Nick Hennessy <njhnny@gmail.com><br />
+Tyler Sinks <tyler.sinks@gmail.com><br />
 Garrett Brown <garrettpaulbrown@gmail.com>

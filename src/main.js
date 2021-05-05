@@ -16,7 +16,7 @@ import './assets/images/bluffs360.jpg';
 
 const splash = document.querySelector('.splash');
 /* jshint ignore:start*/
-document.addEventListener('DOMContentLoaded', (e)=>{
+document.addEventListener('DOMContentLoaded', ()=>{
 /* jshint ignore:end */
   setTimeout(()=>{
     splash.classList.add('display-none');

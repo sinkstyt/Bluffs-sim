@@ -1,7 +1,7 @@
 {
-  "name": "template-repo",
-  "version": "1.0.0",
-  "description": "#### (Brief Description of Application)",
+  "name": "bluffs-public-sim",
+  "version": "1.0.1",
+  "description": "allows user to get some sights and sounds of a park in Portland called the Bluffs",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -9,8 +9,18 @@
     "lint": "eslint src/*.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "HR Williams",
+  "keywords": [
+    "stress relief",
+    "nature",
+    "found sounds",
+    "nature sounds",
+    "ASMR",
+    "Portland",
+    "park",
+    "dog",
+    "bike",
+    "flute"],
+  "author": "HR Williams, Garrett Paul Brown, Nick Hennessey, Tyler Sinks",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -25,7 +35,7 @@
     "jest": "^24.9.0",
     "style-loader": "^1.0.0",
     "webpack": "4.39.3",
-    "webpack-cli": "^3.3.8",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {

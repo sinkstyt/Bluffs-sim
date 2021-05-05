@@ -2,21 +2,23 @@
 
 #### Simulate Public Spaces with cool sound!
 ##### Created March 28th 2021
+* updated for deployment to Heroku
 
 #### By Garrett Brown, HR Williams, Nick Hennessy, Tyler Sinks
 
 ## Technologies Used
-
+* _aFrame_
 * _Babel_
 * _Bootstrap_
-* _webpack_
 * _CSS_
-* _eslint_
+* _esLint_
 * _JavaScript_
 * _Jest_
 * _jQuery_
 * _npm_
 * _popper.js_
+* _Web Audio API_
+* _webpack_ and _webpack-cli_
 
 ## Description
 

@@ -24,7 +24,7 @@
 * use mouse to click and drag
 * when bullseye enters sound spheres, sounds begin
 * toggle on/off nature sounds, low chatter
-* headphone use reccomneded for optimal experience
+* headphone use recommended for optimal experience
 * toggle full screen by clicking VR glasses icon at bottom right
 
 ## Setup/Installation Requirements
@@ -39,10 +39,9 @@
 * _Lint code with the command `$ npm run lint`_
 * _Run tests in Jest with the command `$ npm test`_
 
-
 ## Known Bugs
 * _No known issues_
-* _Please suggest to any of the contributors changes or fixes_
+* _Please suggest fixes to any of the contributors_
 
 ## Sound Attribution
 
